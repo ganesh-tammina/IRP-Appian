@@ -56,7 +56,7 @@ Default CSS
 body {
   font-size: 16px;
   line-height: 1.8 !important;
-  font-family: "Nunito Sans" !important;
+  font-family: "Poppins" !important;
   color: #6c6c6c;
   overflow-x: hidden;
 }
@@ -200,7 +200,6 @@ Default Btn Style
 .default-btn:hover i {
   background-color: transparent;
   color: #ffffff;
-  border: 1px dashed #ffffff;
 }
 .default-btn:hover {
   color: #ffffff;
@@ -337,6 +336,11 @@ Navbar Area
   padding-right: 0;
   background-color: transparent;
 }
+.navbar-light img {
+  max-width: 140px;
+  float: left;
+  padding: 10px 0;
+}
 .navbar-light .navbar-brand-sticky {
   display: none;
 }
@@ -349,7 +353,7 @@ Navbar Area
 .main-nav {
   position: absolute;
   background-color: transparent;
-  top: 20px;
+  top: 0px;
   left: 0;
   padding: 0;
   width: 100%;
@@ -369,12 +373,7 @@ Navbar Area
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-nav nav .navbar-nav .nav-item a {
     padding: 0px 6px;
-    margin: 0px 0px;
-  }
-}
-@media (min-width: 1200px) {
-  .main-nav nav .navbar-nav .nav-item a {
-    padding: 0px 6px;
+    margin: 10px 0px;
   }
 }
 .main-nav nav .navbar-nav .nav-item a i {
@@ -545,6 +544,7 @@ Navbar Area
 .nav-bar-two nav .navbar-nav .nav-item a {
   color: #ffffff;
   position: relative;
+  padding-bottom: 15px;
 }
 .nav-bar-two nav .navbar-nav .nav-item a:hover, .nav-bar-two nav .navbar-nav .nav-item a :focus {
   color: #ffffff !important;
@@ -1115,7 +1115,6 @@ Main Banner Area CSS
 .banner-content .banner-btn .get-btn:hover i {
   background-color: transparent;
   color: #ffffff;
-  border: 1px dashed #ffffff;
 }
 .banner-content .banner-btn .call-btn {
   margin-left: 20px;
@@ -1306,7 +1305,6 @@ Main Banner Area CSS
 .banner-content-two .banner-content-btn .learn-btn:hover i {
   background-color: transparent;
   color: #ffffff;
-  border: 1px dashed #ffffff;
 }
 .banner-content-two .play-on-btn {
   display: inline-block;
@@ -2643,7 +2641,7 @@ Progress Area
   border-radius: 5px;
 }
 .service-another-card p {
-  font-weight: 600;
+  font-weight: 500;
   text-align: justify;
 }
 
@@ -6856,12 +6854,11 @@ area {
   padding: 15px 20px;
 }
 .first-section .first-section-content h2 {
-  font-size: 55px;
-  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
 }
 .first-section .first-section-content p {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
 }
 .first-section .first-section-content .play-btn {
   width: 200px;
@@ -6898,7 +6895,7 @@ area {
   width: 140px;
   height: 124px;
   position: absolute;
-  left: calc(100% - 500px);
+  left: calc(100% - 300px);
   right: 0;
   margin: auto;
   transform: rotate(360deg);
@@ -6911,7 +6908,7 @@ area {
 }
 
 .second-session .second-session-text {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 30px;
   line-height: 45px;
   text-transform: uppercase;
@@ -6937,7 +6934,7 @@ area {
 }
 .second-session p .first-content {
   color: #5A5050;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .third-session {
@@ -7318,7 +7315,7 @@ area {
 }
 
 .second-session-text {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 30px;
   line-height: 45px;
   text-transform: uppercase;

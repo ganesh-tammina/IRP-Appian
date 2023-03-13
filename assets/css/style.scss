@@ -55,8 +55,8 @@ Default CSS
 @import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,500;1,600;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,700;1,900&display=swap');
 
-$title-font: 'Livvic', sans-serif;
-$body-font: 'Nunito Sans', sans-serif;
+$title-font: 'Poppins';
+$body-font: 'Poppins';
 
 $main-color: #ff3900;
 $color-blue: #2966be;
@@ -68,7 +68,7 @@ $color-white: #ffffff;
 body {
     font-size: 16px;
     line-height: 1.8 !important;
-    font-family: 'Nunito Sans' !important;
+    font-family: $body-font !important;
     color: $paragraph-color;
     overflow-x: hidden;
 }
@@ -194,7 +194,7 @@ Default Btn Style
     &:hover i {
         background-color: transparent;
         color: $color-white;
-        border: 1px dashed $color-white;
+        // border: 1px dashed $color-white;
     }
     &:hover {
         color: $color-white;
@@ -327,13 +327,11 @@ Navbar Area
     padding-left: 0;
     padding-right: 0;
     background-color: transparent;
-    .navbar-brand {
-        // img{
-        //     max-width: 140px;
-        //     float: left;
-        //     // padding: 10px 0;
-        // }
-    }
+        img{
+            max-width: 140px;
+            float: left;
+            padding: 10px 0;
+        }
     
     .navbar-brand-sticky {
         display: none;
@@ -350,7 +348,7 @@ Navbar Area
 .main-nav {
     position: absolute;
     background-color: transparent;
-    top: 20px;
+    top: 0px;
     left: 0;
     padding:  0;
     width: 100%;
@@ -370,11 +368,11 @@ Navbar Area
                     margin-right: 12px;
                     @media only  screen and (min-width:992px) and (max-width:1199px){
                         padding: 0px 6px;
-                        margin: 0px 0px;
+                        margin: 10px 0px;
                     }
-                    @media(min-width:1200px){
-                        padding: 0px 6px;
-                    }
+                    // @media(min-width:1200px){
+                    //     padding: 10px 6px;
+                    // }
                     i {
                         line-height: 0;
                         position: relative;
@@ -553,6 +551,7 @@ Navbar Area
                 a {
                     color: $color-white;
                     position: relative;
+                    padding-bottom: 15px;
                     &:hover, :focus {
                         color: $color-white !important;
                         &::before {
@@ -1186,7 +1185,7 @@ Main Banner Area CSS
             &:hover i {
                 background-color: transparent;
                 color: $color-white;
-                border: 1px dashed $color-white;
+                // border: 1px dashed $color-white;
             }
         }
         .call-btn {
@@ -1379,7 +1378,7 @@ Main Banner Area CSS
             &:hover i {
                 background-color: transparent;
                 color: $color-white;
-                border: 1px dashed $color-white;
+                // border: 1px dashed $color-white;
             }
         }
     }
@@ -2777,7 +2776,7 @@ Progress Area
 		border-radius: 5px;
 	}
     p{
-        font-weight: 600;
+        font-weight: 500;
         text-align: justify;
     }
 }
@@ -7208,12 +7207,11 @@ left: -40px;
         display: flex;
         padding: 15px 20px;
         h2{
-            font-size: 55px;
-            font-weight: 700;
+            font-size: 40px;
+            line-height: 1.2;
         }
         p{
-            font-size: 20px;
-            font-weight: 700;
+            font-size: 18px;
         }
         .play-btn{
             width: 200px;
@@ -7247,7 +7245,7 @@ left: -40px;
             width: 140px;
             height: 124px;
             position: absolute;
-            left: calc(100% - 500px);
+            left: calc(100% - 300px);
             right: 0;
             margin: auto;
             transform: rotate(360deg);
@@ -7265,7 +7263,7 @@ left: -40px;
 
 .second-session{
     .second-session-text{
-        font-weight: 700;
+        font-weight: 500;
         font-size: 30px;
         line-height: 45px;
         text-transform: uppercase;
@@ -7290,7 +7288,7 @@ left: -40px;
         font-size: 18px;
         .first-content{
             color: #5A5050;
-            font-weight: 700;
+            font-weight: 500;
         }
     }
 }
@@ -7703,7 +7701,7 @@ position: relative;
 }
 
 .second-session-text{
-    font-weight: 700;
+    font-weight: 500;
     font-size: 30px;
     line-height: 45px;
     text-transform: uppercase;
