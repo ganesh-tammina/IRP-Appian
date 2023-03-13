@@ -7251,7 +7251,7 @@ left: -40px;
             right: 0;
             margin: auto;
             transform: rotate(360deg);
-            animation: rotating 5s linear infinite;
+            animation: rotating 7s linear infinite;
         }
       
     }
@@ -7513,6 +7513,7 @@ left: -40px;
         place-items: center;
         background: radial-gradient(155.19% 155.19% at -20.62% -35.88%, #FF9D0B 0%, #FF4D00 100%);
         margin-bottom: 15px; 
+        animation: movebounce-up 5s infinite;
          .benfits-flow{
         font-weight: 700;
         font-size: 15px;
@@ -7525,7 +7526,9 @@ left: -40px;
     .two{
         background: radial-gradient(123.86% 123.86% at -5.19% -18.67%, #930AFF 0%, #FA07FF 100%);
         position: relative;
-        opacity: 0;  
+        opacity: 0;
+        animation: movebounce-up 5s infinite;
+        animation-delay:2s
     };
 
     .two.active {
@@ -7548,6 +7551,8 @@ left: -40px;
         background: linear-gradient(138.3deg, #00D1FF -13.67%, #19C69C 103.52%);
         position: relative;
         opacity: 0;
+        animation: movebounce-up 5s infinite;
+        animation-delay:3s
       }
       .threes.active {
         opacity: 1;
@@ -7559,6 +7564,8 @@ left: -40px;
         background: linear-gradient(145.76deg, #EE4646 -14.2%, rgba(242, 194, 69, 0.96) 117.67%);
         position: relative;
         opacity: 0;
+        animation: movebounce-up 5s infinite;
+        animation-delay:3s
     }
 
     .four.active {
@@ -7767,7 +7774,7 @@ position: relative;
         height: 100%;
         position: absolute;
         background-repeat: no-repeat;
-        animation: rotating 5s linear infinite;
+        animation: rotating 7s linear infinite;
         left: 0;
         right: 0;
         margin: auto;
@@ -7781,7 +7788,7 @@ position: relative;
         height: 35%;
         position: absolute;
         background-repeat: no-repeat;
-        animation: rotating 5s linear infinite;
+        animation: rotating 7s linear infinite;
         left: 0;
         right: 0;
         margin: auto;
@@ -7819,7 +7826,7 @@ position: relative;
         width: 8%;
         height: 80%;
         background-repeat: no-repeat;
-        animation: rotating 5s linear infinite;
+        animation: rotating 7s linear infinite;
         left: 0;
         right: 0;
         margin: auto;
@@ -7833,7 +7840,7 @@ position: relative;
         width: 20%;
         height: 80%;
         background-repeat: no-repeat;
-        animation: rotating 5s linear infinite;
+        animation: rotating 7s linear infinite;
         left: 0;
         right: 0;
         margin: auto;
