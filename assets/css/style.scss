@@ -7251,6 +7251,7 @@ left: -40px;
             right: 0;
             margin: auto;
             transform: rotate(360deg);
+            animation: rotating 5s linear infinite;
         }
       
     }
@@ -7547,10 +7548,37 @@ left: -40px;
       .threes{
         background: linear-gradient(138.3deg, #00D1FF -13.67%, #19C69C 103.52%);
         position: relative;
+        opacity: 0;
       }
-     
+      .threes.active {
+        opacity: 1;
+      }
+      .active.fade-bottom {
+        animation: fade-bottom 1s ease-in;
+      }
       .four{
-        background: linear-gradient(145.76deg, #EE4646 -14.2%, rgba(242, 194, 69, 0.96) 117.67%)
+        background: linear-gradient(145.76deg, #EE4646 -14.2%, rgba(242, 194, 69, 0.96) 117.67%);
+        position: relative;
+        opacity: 0;
+    }
+
+    .four.active {
+        opacity: 1;
+      }
+      .active.fade-bottom {
+        animation: fade-bottom 1s ease-in;
+      }
+
+      .first-card{
+        position: relative;
+        opacity: 0;
+      }
+
+      .first-card.active {
+        opacity: 1;
+      }
+      .first-card.fade-bottom {
+        animation: fade-bottom 1s ease-in;
       }
 }
 
