@@ -7191,7 +7191,7 @@ area {
   position: relative;
   opacity: 0;
   animation: movebounce-up 5s infinite;
-  animation-delay: 3s;
+  animation-delay: 4s;
 }
 .mini-section .four.active {
   opacity: 1;
