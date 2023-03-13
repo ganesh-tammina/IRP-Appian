@@ -7304,7 +7304,6 @@ left: -40px;
     display: grid;
     place-content: center;
     padding: 3rem 0rem;
-    background-color: #f7f9fd;
 
     @media(max-width:767px){
         padding: 14rem 0rem;
@@ -7745,9 +7744,17 @@ position: relative;
 }
 
 @keyframes blink{
-    0%{opacity: 0;}
-    50%{opacity: .7;}
-    100%{opacity: 1;}
+    0%{opacity: 0; 
+        filter: drop-shadow(-31px 5px 50px rgba(400, 212, 258, 0.7294117647));
+    }
+    
+
+    50%{opacity: .7;
+        filter: drop-shadow(-31px 5px 50px rgba(307, 212, 258, 0.7294117647));
+    }
+    100%{opacity: 1;
+        filter: drop-shadow(-31px 50px 50px rgba(807, 212, 258, 0.7294117647));
+    }
     }
 
 .animate-outer{
@@ -7799,6 +7806,7 @@ position: relative;
       -webkit-transform: rotate(360deg);
       -o-transform: rotate(360deg);
       transform: rotate(360deg);
+
     }
   }
 

@@ -6949,7 +6949,6 @@ area {
   display: grid;
   place-content: center;
   padding: 3rem 0rem;
-  background-color: #f7f9fd;
 }
 @media (max-width: 767px) {
   .third-session {
@@ -7361,12 +7360,15 @@ area {
 @keyframes blink {
   0% {
     opacity: 0;
+    filter: drop-shadow(-31px 5px 50px rgba(255, 212, 255, 0.7294117647));
   }
   50% {
     opacity: 0.7;
+    filter: drop-shadow(-31px 5px 50px rgba(255, 212, 255, 0.7294117647));
   }
   100% {
     opacity: 1;
+    filter: drop-shadow(-31px 50px 50px rgba(255, 212, 255, 0.7294117647));
   }
 }
 .animate-outer {
