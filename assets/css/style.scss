@@ -545,15 +545,19 @@ Navbar Area
     nav {
         .navbar-nav {
             .nav-item {
-                &:hover a,.active {
+                &:hover a, .active {
                     color: $color-white !important;
+                     text-decoration: none;
+                    
                 }
                 a {
                     color: $color-white;
                     position: relative;
                     padding-bottom: 15px;
+                    text-decoration: none;
                     &:hover, :focus {
                         color: $color-white !important;
+                        text-decoration: none;
                         &::before {
                             opacity: 1;
                             width: 100%;
@@ -561,6 +565,7 @@ Navbar Area
                     }
                     &.active {
                         color: $color-white !important;
+                        text-decoration: none;
                         &::before {
                             opacity: 1;
                             width: 100%;
