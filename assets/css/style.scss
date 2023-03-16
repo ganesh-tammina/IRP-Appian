@@ -2750,8 +2750,8 @@ Progress Area
     height: 400px;
     display: grid;
     place-items: center;
-    @media only screen and (min-width:768px) and (max-width:1350px){
-        height: 500px;
+    @media only screen and (min-width:768px) and (max-width:991px){
+        height:auto
     }
         &::before {
 		content: '';
@@ -7206,6 +7206,7 @@ left: -40px;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+   
     .first-section-content{
         height: 100%;
         align-items: center;
@@ -7248,6 +7249,9 @@ left: -40px;
             position: relative;
             @media(min-width:1400px){
                 width: auto;
+            }
+            @media only screen and (min-width:320px) and (max-width:575px){
+                display: none;
             }
         }
         &::after{
@@ -7313,11 +7317,11 @@ left: -40px;
     display: grid;
     place-content: center;
     padding: 3rem 0rem;
-    @media (min-width: 320px) { 
+    @media (max-width: 767px) { 
         height: auto;
     }
     @media (min-width: 768px) { 
-        height: 165vh;
+        height: 100vh;
     }
     @media(max-width:767px){
         padding: 14rem 0rem;
@@ -7331,10 +7335,11 @@ left: -40px;
         @media(max-width:767px){
         font-size: 20px;
         }
-        @media(min-width:320px){
+        @media only screen and (min-width:320px) and (max-width:575px){
             font-size: 15px;
             padding: 5rem 0 5rem 0;
-            }
+        }
+      
         .keytext{
             border-bottom: 3px solid #ffff;
             padding-bottom: 5px;
@@ -7358,8 +7363,11 @@ left: -40px;
         justify-content: center;
         display: flex;
         position: relative;
-        @media(max-width:320px){
+        @media(max-width:767px){
             height: auto;
+            }
+            @media only screen and (min-width:768px) and (max-width:991px) {
+                height: 455px;
             }
         .third-session-img {
             position: absolute;
@@ -7433,6 +7441,7 @@ left: -40px;
         right: 45px;
         @media(max-width:767px){
             right: 0px;
+            flex-direction: row-reverse;
             }
     }
 
@@ -7449,7 +7458,9 @@ left: -40px;
         right: 93px;
         @media(max-width:767px){
         right: 0px;
+        flex-direction: row-reverse;
             }
+            
     }
 
     .third-session-keyboxs :nth-child(3){
@@ -7457,6 +7468,7 @@ left: -40px;
         right: 50px;
         @media(max-width:767px){
             right: 0px;
+            flex-direction: row-reverse;
                 }
     }
 
@@ -7669,14 +7681,20 @@ height: 560px;
 .first-line{
     font-weight: 700;
 font-size: 39px;
-@media(max-width:320px){
-    font-size: 30px;
-}
+@media only screen and (min-width:576px) and (max-width:767px){
+    font-size: 23px;
+    }
+    @media only screen and (min-width:320px) and (max-width:575px){
+        font-size: 18px;
+        }
 }
 .second-line{
     font-weight: 900;
 font-size: 65px;
 line-height: 106px;
+@media only screen and (min-width:576px) and (max-width:767px){
+    font-size: 23px;
+    }
 @media(max-width:320px){
     font-size: 50px;
     line-height: 80px;
@@ -7686,6 +7704,9 @@ line-height: 106px;
     font-weight: 600;
 font-size: 30px;
 line-height: 45px;
+@media only screen and (min-width:576px) and (max-width:767px){
+    font-size: 23px;
+    }
 }
 .fouth-line{
     font-weight: 600;
@@ -7694,6 +7715,9 @@ line-height: 112px;
 background: linear-gradient(91.01deg, #F48F8F 2.65%, #EBFF00 106.32%);
 background-clip: text;
 -webkit-text-fill-color: transparent;
+@media only screen and (min-width:576px) and (max-width:767px){
+    font-size: 42px;
+    }
 @media(max-width:320px){
     font-size: 50px;
     line-height: 80px;
@@ -7714,9 +7738,16 @@ background-clip: text;
     position: relative;
     bottom: calc(100vh - 83vh);
     z-index: -9;
-    @media (max-width: 320px) {
-        height: 214vh;
+    @media only screen and (min-width:576px) and (max-width:767px){
+        bottom: 0;
+        height:auto;
+        }
+    @media only screen and (min-width: 320px) and (max-width:991px){
+        height: auto;
+        padding-top: 30px;
      }
+
+     
     .low-code-text{
         font-weight: 700;
 font-size: 30px;
@@ -7724,10 +7755,10 @@ line-height: 45px;
 border-bottom: 2px solid #ffff;
 display: inline-block;
 position: relative;
-@media (max-width: 991px) {
+ @media (max-width: 991px) {
     background-size: none;
     bottom: none;
- }
+  }
 &::after{
     content: "";
     width: 55px;

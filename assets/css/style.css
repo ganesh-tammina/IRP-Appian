@@ -2613,9 +2613,9 @@ Progress Area
   display: grid;
   place-items: center;
 }
-@media only screen and (min-width: 768px) and (max-width: 1350px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .service-another-card {
-    height: 500px;
+    height: auto;
   }
 }
 .service-another-card::before {
@@ -6903,6 +6903,11 @@ area {
     width: auto;
   }
 }
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .first-section .first-section-image img {
+    display: none;
+  }
+}
 .first-section .first-section-image::after {
   content: "";
   background-image: url(../IRP-assets/shape.png);
@@ -6960,14 +6965,14 @@ area {
   place-content: center;
   padding: 3rem 0rem;
 }
-@media (min-width: 320px) {
+@media (max-width: 767px) {
   .third-session {
     height: auto;
   }
 }
 @media (min-width: 768px) {
   .third-session {
-    height: 165vh;
+    height: 100vh;
   }
 }
 @media (max-width: 767px) {
@@ -6985,7 +6990,7 @@ area {
     font-size: 20px;
   }
 }
-@media (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 575px) {
   .third-session .third-session-heading {
     font-size: 15px;
     padding: 5rem 0 5rem 0;
@@ -7014,9 +7019,14 @@ area {
   display: flex;
   position: relative;
 }
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .third-session .third-session-keypoints {
     height: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .third-session .third-session-keypoints {
+    height: 455px;
   }
 }
 .third-session .third-session-keypoints .third-session-img {
@@ -7073,6 +7083,7 @@ area {
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .common-box-one {
     right: 0px;
+    flex-direction: row-reverse;
   }
 }
 .third-session .third-session-keypoints .common-box-one-right {
@@ -7091,6 +7102,7 @@ area {
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
     right: 0px;
+    flex-direction: row-reverse;
   }
 }
 .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
@@ -7100,6 +7112,7 @@ area {
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
     right: 0px;
+    flex-direction: row-reverse;
   }
 }
 .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(2) {
@@ -7304,15 +7317,25 @@ area {
   font-weight: 700;
   font-size: 39px;
 }
-@media (max-width: 320px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
   .global-session .first-line {
-    font-size: 30px;
+    font-size: 23px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .global-session .first-line {
+    font-size: 18px;
   }
 }
 .global-session .second-line {
   font-weight: 900;
   font-size: 65px;
   line-height: 106px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .global-session .second-line {
+    font-size: 23px;
+  }
 }
 @media (max-width: 320px) {
   .global-session .second-line {
@@ -7325,6 +7348,11 @@ area {
   font-size: 30px;
   line-height: 45px;
 }
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .global-session .third-line {
+    font-size: 23px;
+  }
+}
 .global-session .fouth-line {
   font-weight: 600;
   font-size: 75px;
@@ -7333,6 +7361,11 @@ area {
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .global-session .fouth-line {
+    font-size: 42px;
+  }
 }
 @media (max-width: 320px) {
   .global-session .fouth-line {
@@ -7352,9 +7385,16 @@ area {
   bottom: 17vh;
   z-index: -9;
 }
-@media (max-width: 320px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
   .low-code {
-    height: 214vh;
+    bottom: 0;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .low-code {
+    height: auto;
+    padding-top: 30px;
   }
 }
 .low-code .low-code-text {
