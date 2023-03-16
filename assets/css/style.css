@@ -6965,14 +6965,16 @@ area {
   place-content: center;
   padding: 3rem 0rem;
 }
+.third-session .key-text {
+  margin-top: 3rem;
+}
 @media (max-width: 767px) {
   .third-session {
     height: auto;
   }
-}
-@media (min-width: 768px) {
-  .third-session {
-    height: 100vh;
+  .third-session .key-text {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
   }
 }
 @media (max-width: 767px) {
@@ -7026,7 +7028,7 @@ area {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .third-session .third-session-keypoints {
-    height: 455px;
+    height: 416px;
   }
 }
 .third-session .third-session-keypoints .third-session-img {

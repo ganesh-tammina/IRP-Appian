@@ -7317,12 +7317,18 @@ left: -40px;
     display: grid;
     place-content: center;
     padding: 3rem 0rem;
+    .key-text{
+        margin-top: 3rem;
+    }
     @media (max-width: 767px) { 
         height: auto;
+        .key-text{
+            margin-top: 0rem;
+            margin-bottom: 2rem;
+        }
+
     }
-    @media (min-width: 768px) { 
-        height: 100vh;
-    }
+
     @media(max-width:767px){
         padding: 14rem 0rem;
     }
@@ -7367,7 +7373,7 @@ left: -40px;
             height: auto;
             }
             @media only screen and (min-width:768px) and (max-width:991px) {
-                height: 455px;
+                height: 416px;
             }
         .third-session-img {
             position: absolute;

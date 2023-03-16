@@ -161,11 +161,11 @@ $bg-color2: #080808;
             z-index: 0;
             border-radius: 10px;
             overflow: hidden;
-            height: auto;
+            // height: auto;
             display: grid;
             place-items: center;
-            @media only screen and (min-width:768px) and (max-width:1350px){
-                height: 500px;
+            @media only screen and (min-width:768px) and (max-width:991px){
+                height: auto;
             }
                 &::before {
                 content: '';
