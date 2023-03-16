@@ -7097,7 +7097,7 @@ area {
   position: relative;
   left: 45px;
 }
-@media (min-width: 320px) {
+@media (max-width: 767px) {
   .third-session .third-session-keypoints .common-box-one-right {
     left: 0px;
   }
@@ -7133,12 +7133,6 @@ area {
 }
 .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(1) {
   position: relative;
-  left: 0px;
-}
-@media (max-width: 767px) {
-  .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(1) {
-    left: 0px;
-  }
 }
 .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
   position: relative;

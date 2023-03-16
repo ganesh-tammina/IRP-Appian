@@ -7456,7 +7456,7 @@ left: -40px;
     .common-box-one-right{
         position: relative;
         left: 45px ;
-        @media(min-width:320px){
+        @media(max-width:767px){
             left: 0px;
                 }
     }
@@ -7489,10 +7489,7 @@ left: -40px;
     }
     .third-session-keyboxs-right :nth-child(1){
         position: relative;
-        left: 0px;
-        @media(max-width:767px){
-            left: 0px;
-                }
+       
     }
 
     .third-session-keyboxs-right :nth-child(3){
