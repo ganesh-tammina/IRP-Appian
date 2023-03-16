@@ -540,14 +540,17 @@ Navbar Area
 
 .nav-bar-two nav .navbar-nav .nav-item:hover a, .nav-bar-two nav .navbar-nav .nav-item .active {
   color: #ffffff !important;
+  text-decoration: none;
 }
 .nav-bar-two nav .navbar-nav .nav-item a {
   color: #ffffff;
   position: relative;
   padding-bottom: 15px;
+  text-decoration: none;
 }
 .nav-bar-two nav .navbar-nav .nav-item a:hover, .nav-bar-two nav .navbar-nav .nav-item a :focus {
   color: #ffffff !important;
+  text-decoration: none;
 }
 .nav-bar-two nav .navbar-nav .nav-item a:hover::before, .nav-bar-two nav .navbar-nav .nav-item a :focus::before {
   opacity: 1;
@@ -555,6 +558,7 @@ Navbar Area
 }
 .nav-bar-two nav .navbar-nav .nav-item a.active {
   color: #ffffff !important;
+  text-decoration: none;
 }
 .nav-bar-two nav .navbar-nav .nav-item a.active::before {
   opacity: 1;
@@ -6857,8 +6861,18 @@ area {
   font-size: 42px;
   line-height: 1.2;
 }
+@media (max-width: 320px) {
+  .first-section .first-section-content h2 {
+    font-size: 38px;
+  }
+}
 .first-section .first-section-content p {
   font-size: 18px;
+}
+@media (max-width: 320px) {
+  .first-section .first-section-content p {
+    font-size: 14px;
+  }
 }
 .first-section .first-section-content .play-btn {
   width: 200px;
@@ -6933,7 +6947,6 @@ area {
   font-size: 18px;
 }
 .second-session p .first-content {
-  color: #5A5050;
   font-weight: 500;
 }
 
@@ -6946,6 +6959,16 @@ area {
   display: grid;
   place-content: center;
   padding: 3rem 0rem;
+}
+@media (min-width: 320px) {
+  .third-session {
+    height: auto;
+  }
+}
+@media (min-width: 768px) {
+  .third-session {
+    height: 165vh;
+  }
 }
 @media (max-width: 767px) {
   .third-session {
@@ -6960,6 +6983,12 @@ area {
 @media (max-width: 767px) {
   .third-session .third-session-heading {
     font-size: 20px;
+  }
+}
+@media (min-width: 320px) {
+  .third-session .third-session-heading {
+    font-size: 15px;
+    padding: 5rem 0 5rem 0;
   }
 }
 .third-session .third-session-heading .keytext {
@@ -6984,6 +7013,11 @@ area {
   justify-content: center;
   display: flex;
   position: relative;
+}
+@media (max-width: 320px) {
+  .third-session .third-session-keypoints {
+    height: auto;
+  }
 }
 .third-session .third-session-keypoints .third-session-img {
   position: absolute;
@@ -7011,6 +7045,12 @@ area {
   margin-left: 0;
   margin-right: 0;
 }
+@media (min-width: 768px) {
+  .third-session .third-session-keypoints .common-box .common-point {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
 .third-session .third-session-keypoints .common-box .pen-icon {
   right: 0 !important;
   margin: auto;
@@ -7037,7 +7077,12 @@ area {
 }
 .third-session .third-session-keypoints .common-box-one-right {
   position: relative;
-  left: 45px !important;
+  left: 45px;
+}
+@media (min-width: 320px) {
+  .third-session .third-session-keypoints .common-box-one-right {
+    left: 0px;
+  }
 }
 .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
   position: relative;
@@ -7245,6 +7290,11 @@ area {
   padding: 2rem 0rem;
   height: 100%;
 }
+@media (max-width: 320px) {
+  .global-session {
+    margin-top: 16rem;
+  }
+}
 @media (min-width: 992px) {
   .global-session {
     height: 560px;
@@ -7254,10 +7304,21 @@ area {
   font-weight: 700;
   font-size: 39px;
 }
+@media (max-width: 320px) {
+  .global-session .first-line {
+    font-size: 30px;
+  }
+}
 .global-session .second-line {
   font-weight: 900;
   font-size: 65px;
   line-height: 106px;
+}
+@media (max-width: 320px) {
+  .global-session .second-line {
+    font-size: 50px;
+    line-height: 80px;
+  }
 }
 .global-session .third-line {
   font-weight: 600;
@@ -7273,6 +7334,12 @@ area {
           background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media (max-width: 320px) {
+  .global-session .fouth-line {
+    font-size: 50px;
+    line-height: 80px;
+  }
+}
 
 .low-code {
   background-image: url(../IRP-assets/foregroung-blue-shape.svg);
@@ -7285,6 +7352,11 @@ area {
   bottom: 17vh;
   z-index: -9;
 }
+@media (max-width: 320px) {
+  .low-code {
+    height: 214vh;
+  }
+}
 .low-code .low-code-text {
   font-weight: 700;
   font-size: 30px;
@@ -7292,6 +7364,12 @@ area {
   border-bottom: 2px solid white;
   display: inline-block;
   position: relative;
+}
+@media (max-width: 991px) {
+  .low-code .low-code-text {
+    background-size: none;
+    bottom: none;
+  }
 }
 .low-code .low-code-text::after {
   content: "";

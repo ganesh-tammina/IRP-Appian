@@ -389,9 +389,9 @@ Navbar Area
                         transform: scale(1);
                     }
                 }
-                .dropdown-menu {
+                .dropdown-menu { 
                     border: none;
-                    border-top: 3px solid $main-color;
+                    border-top: 3px solid $main-color; 
                     padding: 0;
                     border-radius: 0;
                     background-color: $color-white !important;
@@ -7214,9 +7214,15 @@ left: -40px;
         h2{
             font-size: 42px;
             line-height: 1.2;
+            @media(max-width:320px){
+                font-size: 38px;
+            }
         }
         p{
             font-size: 18px;
+            @media(max-width:320px){
+                font-size: 14px;
+            }
         }
         .play-btn{
             width: 200px;
@@ -7307,7 +7313,12 @@ left: -40px;
     display: grid;
     place-content: center;
     padding: 3rem 0rem;
-
+    @media (min-width: 320px) { 
+        height: auto;
+    }
+    @media (min-width: 768px) { 
+        height: 165vh;
+    }
     @media(max-width:767px){
         padding: 14rem 0rem;
     }
@@ -7316,9 +7327,14 @@ left: -40px;
         font-weight: 700;
         font-size: 30px;
         text-transform: uppercase;
+        
         @media(max-width:767px){
         font-size: 20px;
         }
+        @media(min-width:320px){
+            font-size: 15px;
+            padding: 5rem 0 5rem 0;
+            }
         .keytext{
             border-bottom: 3px solid #ffff;
             padding-bottom: 5px;
@@ -7342,6 +7358,9 @@ left: -40px;
         justify-content: center;
         display: flex;
         position: relative;
+        @media(max-width:320px){
+            height: auto;
+            }
         .third-session-img {
             position: absolute;
             z-index: 99;
@@ -7376,6 +7395,11 @@ left: -40px;
             padding: 2px 0px;
             margin-left: 0;
             margin-right: 0;
+            @media (min-width: 768px) {
+                font-size: 12px;
+                line-height: 15px;
+             }
+
         }
         .pen-icon{
             right: 0 !important;
@@ -7414,7 +7438,10 @@ left: -40px;
 
     .common-box-one-right{
         position: relative;
-        left: 45px !important;
+        left: 45px ;
+        @media(min-width:320px){
+            left: 0px;
+                }
     }
 
     .third-session-keyboxs :nth-child(2){
@@ -7507,7 +7534,6 @@ left: -40px;
         }
     }
     .benifits-card{
-      
         width: 272px;
         height: 300px;
         margin: 0px 10px;
@@ -7634,18 +7660,27 @@ display: grid;
 place-content: center;
 padding: 2rem 0rem;
 height: 100%;
-
+@media(max-width:320px){
+   margin-top: 16rem;
+    }
 @media(min-width:992px){
 height: 560px;
 }
 .first-line{
     font-weight: 700;
 font-size: 39px;
+@media(max-width:320px){
+    font-size: 30px;
+}
 }
 .second-line{
     font-weight: 900;
 font-size: 65px;
 line-height: 106px;
+@media(max-width:320px){
+    font-size: 50px;
+    line-height: 80px;
+}
 }
 .third-line{
     font-weight: 600;
@@ -7659,6 +7694,10 @@ line-height: 112px;
 background: linear-gradient(91.01deg, #F48F8F 2.65%, #EBFF00 106.32%);
 background-clip: text;
 -webkit-text-fill-color: transparent;
+@media(max-width:320px){
+    font-size: 50px;
+    line-height: 80px;
+}
 }
 
 }
@@ -7675,6 +7714,9 @@ background-clip: text;
     position: relative;
     bottom: calc(100vh - 83vh);
     z-index: -9;
+    @media (max-width: 320px) {
+        height: 214vh;
+     }
     .low-code-text{
         font-weight: 700;
 font-size: 30px;
@@ -7682,6 +7724,10 @@ line-height: 45px;
 border-bottom: 2px solid #ffff;
 display: inline-block;
 position: relative;
+@media (max-width: 991px) {
+    background-size: none;
+    bottom: none;
+ }
 &::after{
     content: "";
     width: 55px;

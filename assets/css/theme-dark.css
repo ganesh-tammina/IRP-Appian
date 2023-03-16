@@ -7,7 +7,7 @@
 }
 @media (max-width: 991px) {
   .switch-box {
-    right: 65px;
+    right: 88px;
     top: 12px;
   }
 }
@@ -83,6 +83,11 @@
 .theme-dark p {
   color: white;
 }
+@media (max-width: 320px) {
+  .theme-dark p {
+    font-size: 16px;
+  }
+}
 .theme-dark body {
   width: 100%;
   color: #ffffff;
@@ -145,7 +150,7 @@
   z-index: 0;
   border-radius: 10px;
   overflow: hidden;
-  height: 400px;
+  height: auto;
   display: grid;
   place-items: center;
 }
