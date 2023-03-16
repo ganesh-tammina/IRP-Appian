@@ -6857,6 +6857,11 @@ area {
   display: flex;
   padding: 15px 20px;
 }
+@media (max-width: 767px) {
+  .first-section .first-section-content {
+    height: 70%;
+  }
+}
 .first-section .first-section-content h2 {
   font-size: 42px;
   line-height: 1.2;
@@ -7395,7 +7400,6 @@ area {
 }
 @media only screen and (min-width: 320px) and (max-width: 991px) {
   .low-code {
-    height: auto;
     padding-top: 30px;
   }
 }
