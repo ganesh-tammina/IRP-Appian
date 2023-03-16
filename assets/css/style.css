@@ -2615,6 +2615,11 @@ Progress Area
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .service-another-card {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  .service-another-card {
     height: auto;
   }
 }
@@ -7395,8 +7400,7 @@ area {
 }
 @media only screen and (min-width: 320px) and (max-width: 991px) {
   .low-code {
-    height: auto;
-    padding-top: 30px;
+    bottom: 0;
   }
 }
 .low-code .low-code-text {

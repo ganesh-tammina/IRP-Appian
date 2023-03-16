@@ -2751,8 +2751,12 @@ Progress Area
     display: grid;
     place-items: center;
     @media only screen and (min-width:768px) and (max-width:991px){
-        height:auto
+       font-size: 12px;
+     }
+    @media only screen and (min-width:320px) and (max-width:575px){
+        height:auto;
     }
+
         &::before {
 		content: '';
 		position: absolute;
@@ -7749,8 +7753,8 @@ background-clip: text;
         height:auto;
         }
     @media only screen and (min-width: 320px) and (max-width:991px){
-        height: auto;
-        padding-top: 30px;
+        bottom: 0;
+        
      }
 
      
@@ -7776,6 +7780,7 @@ position: relative;
     margin: auto;
     background: #ffff;
 }
+
     }
 }
 
