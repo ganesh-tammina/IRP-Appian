@@ -6971,8 +6971,6 @@ area {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  display: grid;
-  place-content: center;
   padding: 3rem 0rem;
 }
 .third-session .key-text {
@@ -6983,7 +6981,7 @@ area {
     height: auto;
   }
   .third-session .key-text {
-    margin-top: 0rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
   }
 }
@@ -7025,7 +7023,7 @@ area {
   background: white;
 }
 .third-session .third-session-keypoints {
-  height: 530px;
+  height: 100%;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -7051,7 +7049,7 @@ area {
   }
 }
 .third-session .third-session-keypoints .common-box {
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 10px;
   margin-bottom: 40px;
   padding: 10px 10px;
@@ -7462,6 +7460,10 @@ area {
 
 .animate-bg {
   position: relative;
+}
+.animate-bg img {
+  width: 400px;
+  height: 400px;
 }
 .animate-bg::before {
   content: "";

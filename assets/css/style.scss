@@ -7320,8 +7320,6 @@ left: -40px;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    display: grid;
-    place-content: center;
     padding: 3rem 0rem;
     .key-text{
         margin-top: 3rem;
@@ -7329,7 +7327,7 @@ left: -40px;
     @media (max-width: 767px) { 
         height: auto;
         .key-text{
-            margin-top: 0rem;
+            margin-top: 2rem;
             margin-bottom: 2rem;
         }
 
@@ -7370,7 +7368,7 @@ left: -40px;
         }
     }
     .third-session-keypoints{
-        height: 530px;
+        height: 100%;
         align-items: center;
         justify-content: center;
         display: flex;
@@ -7400,7 +7398,7 @@ left: -40px;
         }
         
         .common-box{
-            border : 1px solid #ffff;
+            border : 2px solid #ffff;
             border-radius: 10px;
             margin-bottom: 40px;
             padding: 10px 10px;
@@ -7816,6 +7814,10 @@ position: relative;
 }
 
 .animate-bg{
+    img{
+        width: 400px;
+        height: 400px;
+    }
 position: relative;
 
     &::before{
