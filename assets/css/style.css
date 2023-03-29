@@ -63,6 +63,7 @@ body {
 
 p {
   color: #6c6c6c;
+  font-size: 18px;
 }
 
 a {
@@ -7063,7 +7064,7 @@ area {
 }
 .third-session .third-session-keypoints .common-box .common-point {
   font-weight: 500;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 23px;
   color: #FFFFFF;
   width: 80%;
@@ -7590,6 +7591,7 @@ area {
   top: 10%;
   left: 10%;
   animation: 4s linear infinite;
+  opacity: 0.5;
 }
 
 div .dot {

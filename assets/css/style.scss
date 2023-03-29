@@ -74,6 +74,7 @@ body {
 }
 p {
     color: $paragraph-color; 
+    font-size: 18px;
 }
 a {
     display: inline-block;
@@ -7405,7 +7406,7 @@ left: -40px;
             padding: 10px 10px;
         .common-point{
             font-weight: 500;
-            font-size: 15px;
+            font-size: 17px;
             line-height: 23px;
             // text-align: right;
             color: #FFFFFF;
@@ -7958,6 +7959,7 @@ position: relative;
     top: 10%;
     left: 10%;
     animation: 4s linear infinite;
+    opacity: 0.5;
   }
   div .dot {
     height: 10px;
