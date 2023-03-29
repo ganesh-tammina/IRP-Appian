@@ -8054,3 +8054,36 @@ position: relative;
     }
   }
   
+  .design-card-support{
+    height: 150px;
+    background: linear-gradient(96.21deg, #247378 22.34%, #782470 73.25%);
+box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
+border-radius: 33px;
+display: grid;
+text-align: center;
+position: absolute;
+left: 0;
+right: 0;
+/* top: 0; */
+bottom: calc(100% - 91%);
+margin: auto;
+    .Connect-content{
+        display: grid;
+        place-content: center;
+        .Connect-btn{
+            border: 3px solid #FFFFFF;
+            border-radius: 9px;
+            height: 85px;
+            width: 215px;
+            background-color: transparent;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 45px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            z-index: 99999;
+            }
+           
+    }
+
+}
