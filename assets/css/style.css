@@ -6968,10 +6968,10 @@ area {
 .third-session {
   background-image: url(../IRP-assets/blue-gradient-shape.svg);
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 3rem 0rem;
+  padding: 14rem 0rem;
 }
 .third-session .key-text {
   margin-top: 3rem;
@@ -7079,7 +7079,7 @@ area {
   border-radius: 10px;
 }
 .third-session .third-session-keypoints .third-session-keyboxs {
-  margin-right: 130px;
+  margin-right: 186px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-keyboxs {
@@ -7088,7 +7088,7 @@ area {
 }
 .third-session .third-session-keypoints .common-box-one {
   position: relative;
-  right: 45px;
+  right: 20px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .common-box-one {
@@ -7098,7 +7098,7 @@ area {
 }
 .third-session .third-session-keypoints .common-box-one-right {
   position: relative;
-  left: 45px;
+  left: 15px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .common-box-one-right {
@@ -7107,7 +7107,7 @@ area {
 }
 .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
   position: relative;
-  right: 93px;
+  right: 65px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
@@ -7117,7 +7117,7 @@ area {
 }
 .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
   position: relative;
-  right: 50px;
+  right: 63px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
@@ -7139,7 +7139,7 @@ area {
 }
 .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
   position: relative;
-  right: -50px;
+  right: -68px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
