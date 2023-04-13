@@ -2514,14 +2514,15 @@ Progress Area
   z-index: 9;
   width: 50%;
   margin: auto;
-  background-color: white;
+  background-color: darkgreen;
   text-align: center;
   top: 20px;
-  color: #2966be;
+  color: #fff;
   font-weight: bold;
   padding: 10px 0px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   font-size: 21px;
+  border-radius: 2px;
   font-weight: 600;
 }
 
@@ -6613,7 +6614,6 @@ Buy Now Btn
   width: 5em !important;
   height: 5em !important;
   border-radius: 5px;
-  border: 2px solid rgba(183, 168, 168, 0.79);
 }
 
 .set-color {
@@ -6659,7 +6659,7 @@ Buy Now Btn
 }
 .animate-charcter {
   text-transform: uppercase;
-  background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+  background-image: linear-gradient(91.01deg, #b92b27 2.65%, #1565C0 106.32%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -6701,8 +6701,11 @@ area {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
   width: 100%;
-  height: 50%;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -6852,7 +6855,7 @@ area {
 .first-section {
   background-image: url(../IRP-assets/Hero.png);
   width: 100%;
-  height: 100vh;
+  height: 125vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -6877,7 +6880,7 @@ area {
   }
 }
 .first-section .first-section-content p {
-  font-size: 18px;
+  font-size: 25px;
 }
 @media (max-width: 320px) {
   .first-section .first-section-content p {
@@ -6934,6 +6937,8 @@ area {
 .into-card {
   color: #f0f0f0;
   border-radius: 10px;
+  font-weight: 600;
+  letter-spacing: normal;
 }
 
 .second-session .second-session-text {
@@ -6968,10 +6973,14 @@ area {
 .third-session {
   background-image: url(../IRP-assets/blue-gradient-shape.svg);
   width: 100%;
-  height: auto;
+  height: 135vh;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 14rem 0rem;
+  padding: 3rem 0rem;
+  display: grid;
+  place-items: center;
+  position: relative;
+  margin-bottom: 220px;
 }
 .third-session .key-text {
   margin-top: 3rem;
@@ -7023,7 +7032,7 @@ area {
   background: white;
 }
 .third-session .third-session-keypoints {
-  height: 100%;
+  height: 80%;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -7042,6 +7051,7 @@ area {
 .third-session .third-session-keypoints .third-session-img {
   position: absolute;
   z-index: 99;
+  margin-top: -66px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-img {
@@ -7079,7 +7089,7 @@ area {
   border-radius: 10px;
 }
 .third-session .third-session-keypoints .third-session-keyboxs {
-  margin-right: 186px;
+  margin-right: 130px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-keyboxs {
@@ -7088,7 +7098,6 @@ area {
 }
 .third-session .third-session-keypoints .common-box-one {
   position: relative;
-  right: 20px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .common-box-one {
@@ -7098,7 +7107,6 @@ area {
 }
 .third-session .third-session-keypoints .common-box-one-right {
   position: relative;
-  left: 15px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .common-box-one-right {
@@ -7107,7 +7115,7 @@ area {
 }
 .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
   position: relative;
-  right: 65px;
+  right: 93px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-keyboxs :nth-child(2) {
@@ -7117,7 +7125,7 @@ area {
 }
 .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
   position: relative;
-  right: 63px;
+  right: 90px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-keyboxs :nth-child(3) {
@@ -7139,7 +7147,7 @@ area {
 }
 .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
   position: relative;
-  right: -68px;
+  right: -90px;
 }
 @media (max-width: 767px) {
   .third-session .third-session-keypoints .third-session-keyboxs-right :nth-child(3) {
@@ -7152,7 +7160,7 @@ area {
 
 .fourth-session {
   background-image: url(../IRP-assets/bg-methodology.png);
-  height: 1000px;
+  height: 600px;
   background-size: cover;
 }
 @media (max-width: 991px) {
@@ -7299,8 +7307,6 @@ area {
   }
 }
 .global-session {
-  background: linear-gradient(99.36deg, #401C1C -10.42%, #00C1DB 105.7%);
-  box-shadow: 6px 21px 60px 2px rgba(0, 0, 0, 0.17);
   border-radius: 17px;
   display: grid;
   place-content: center;
@@ -7318,8 +7324,9 @@ area {
   }
 }
 .global-session .first-line {
-  font-weight: 700;
-  font-size: 39px;
+  font-weight: 500;
+  font-size: 35px;
+  color: black;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .global-session .first-line {
@@ -7332,8 +7339,8 @@ area {
   }
 }
 .global-session .second-line {
-  font-weight: 900;
-  font-size: 65px;
+  font-weight: 600;
+  font-size: 50px;
   line-height: 106px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -7351,6 +7358,7 @@ area {
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
+  color: black;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .global-session .third-line {
@@ -7358,10 +7366,10 @@ area {
   }
 }
 .global-session .fouth-line {
-  font-weight: 600;
-  font-size: 75px;
+  font-weight: 900;
+  font-size: 50px;
   line-height: 112px;
-  background: linear-gradient(91.01deg, #F48F8F 2.65%, #EBFF00 106.32%);
+  color: black;
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -7462,8 +7470,8 @@ area {
   position: relative;
 }
 .animate-bg img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 }
 .animate-bg::before {
   content: "";
@@ -7575,4 +7583,292 @@ area {
   bottom: 0;
   animation-delay: 2s;
   z-index: 99;
+}
+
+.wrapper div {
+  height: 60px;
+  width: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  animation: 4s linear infinite;
+}
+
+div .dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
+
+.wrapper div:nth-child(1) {
+  top: 20%;
+  left: 20%;
+  animation: animates 8s linear infinite;
+}
+
+.wrapper div:nth-child(2) {
+  top: 60%;
+  left: 80%;
+  animation: animates 10s linear infinite;
+}
+
+.wrapper div:nth-child(3) {
+  top: 40%;
+  left: 40%;
+  animation: animates 3s linear infinite;
+}
+
+.wrapper div:nth-child(4) {
+  top: 66%;
+  left: 30%;
+  animation: animates 7s linear infinite;
+}
+
+.wrapper div:nth-child(5) {
+  top: 90%;
+  left: 10%;
+  animation: animates 9s linear infinite;
+}
+
+.wrapper div:nth-child(6) {
+  top: 30%;
+  left: 60%;
+  animation: animates 5s linear infinite;
+}
+
+.wrapper div:nth-child(7) {
+  top: 70%;
+  left: 20%;
+  animation: animates 8s linear infinite;
+}
+
+.wrapper div:nth-child(8) {
+  top: 75%;
+  left: 60%;
+  animation: animates 10s linear infinite;
+}
+
+.wrapper div:nth-child(9) {
+  top: 50%;
+  left: 50%;
+  animation: animates 6s linear infinite;
+}
+
+.wrapper div:nth-child(10) {
+  top: 45%;
+  left: 20%;
+  animation: animates 10s linear infinite;
+}
+
+.wrapper div:nth-child(11) {
+  top: 10%;
+  left: 90%;
+  animation: animates 9s linear infinite;
+}
+
+.wrapper div:nth-child(12) {
+  top: 20%;
+  left: 70%;
+  animation: animates 7s linear infinite;
+}
+
+.wrapper div:nth-child(13) {
+  top: 20%;
+  left: 20%;
+  animation: animates 8s linear infinite;
+}
+
+.wrapper div:nth-child(14) {
+  top: 60%;
+  left: 5%;
+  animation: animates 6s linear infinite;
+}
+
+.wrapper div:nth-child(15) {
+  top: 90%;
+  left: 80%;
+  animation: animates 9s linear infinite;
+}
+
+@keyframes animates {
+  0% {
+    transform: scale(0) translateY(0) rotate(70deg);
+  }
+  100% {
+    transform: scale(1.3) translateY(-100px) rotate(360deg);
+  }
+}
+.design-card-support {
+  height: auto;
+  background: linear-gradient(96.21deg, #6610f2 22.34%, #6f42c1 73.25%);
+  box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
+  border-radius: 33px;
+  display: grid;
+  text-align: center;
+}
+.design-card-support h2 {
+  font-family: "Racing Sans One";
+  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+}
+@media (max-width: 991px) {
+  .design-card-support {
+    height: auto;
+    padding: 10px 0;
+  }
+}
+.design-card-support .Connect-content {
+  display: grid;
+  place-content: center;
+}
+.design-card-support .Connect-content .Connect-btn {
+  border: 3px solid #FFFFFF;
+  border-radius: 9px;
+  height: 60px;
+  width: 215px;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+.design-card-support .Connect-content .Connect-btn a {
+  color: #fff;
+}
+
+.tem-model {
+  background: white;
+  border-radius: 33px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.tem-model h5 {
+  font-size: 34px;
+  width: 70%;
+  margin: auto;
+  padding: 15px 0 30px 0;
+}
+.tem-model .stay p {
+  color: white;
+  font-size: 24px;
+  width: 80%;
+  margin: auto;
+  padding: 18px 0 18px 0;
+}
+.tem-model .think h2 {
+  color: #ffff00;
+  font-size: 40px;
+  font-weight: 600;
+  width: 80%;
+  margin: auto;
+  padding: 18px 0 18px 0;
+}
+.tem-model .Free-access p {
+  color: white;
+  font-size: 44px;
+  width: 80%;
+  margin: auto;
+  padding: 18px 0 18px 0;
+}
+
+.tem-model-header {
+  background: #229CF4;
+  height: 32.31px;
+  border-radius: 32px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  position: relative;
+}
+.tem-model-header::before {
+  content: "REGISTER";
+  position: absolute;
+  width: 321px;
+  height: 75px;
+  border-radius: 50px;
+  background: #229CF4;
+  z-index: 9;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  filter: drop-shadow(2px 0px 8px #229CF4);
+  display: grid;
+  place-content: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  .tem-model-header::before {
+    width: 165px;
+    height: 45px;
+    font-size: 18px;
+    top: 30px;
+  }
+}
+
+.form-card {
+  background: #F9F9F9;
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.24);
+  border-radius: 13px;
+}
+
+.items-seleted-text {
+  background: linear-gradient(90.54deg, #4D7EDE -6.84%, #27AEE8 26.14%, #FF7EF2 64.31%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.items-seleted-text h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.items-cards-bg {
+  background-image: url("../img/Clip path.svg");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+}
+
+.items-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#register {
+  display: none;
+}
+
+.register-card {
+  position: relative;
+}
+.register-card .cancel-form-btn {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 0px;
+  background: #FF4D4D;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+  right: -20px;
+  border-radius: 50%;
+  background-image: url("../img/Vector-x.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 9;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
