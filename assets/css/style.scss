@@ -328,12 +328,6 @@ Navbar Area
     padding-left: 0;
     padding-right: 0;
     background-color: transparent;
-        img{
-            max-width: 140px;
-            float: left;
-            padding: 10px 0;
-        }
-    
     .navbar-brand-sticky {
         display: none;
     }
@@ -357,6 +351,7 @@ Navbar Area
     height: auto;
     nav {
         .navbar-nav {
+         
             .nav-item {
                 &:hover a,.active {
                     color: $main-color !important;
@@ -364,7 +359,7 @@ Navbar Area
                 a {
                     text-transform: capitalize;
                     color: $color-black;
-                    font-weight: 600;
+                    font-weight: 300;
                     margin-left: 12px;
                     margin-right: 12px;
                     @media only  screen and (min-width:992px) and (max-width:1199px){
@@ -719,9 +714,9 @@ Navbar Area
         background-color: $color-blue;
         position: fixed;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-        height: 70px;
+        height: auto;
         display: grid;
-        place-items: center;
+        // place-items: center;
         .switch-box{
             top: 20px;
             }
@@ -7315,7 +7310,7 @@ left: -40px;
 .third-session{
     background-image: url(../IRP-assets/blue-gradient-shape.svg);
     width: 100%;
-    height: 135vh;
+    height: 155vh;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 3rem 0rem;
@@ -8086,4 +8081,22 @@ margin: auto;
            
     }
 
+}
+
+.container-fluid_width{
+    padding: 0px 60px;
+    .custom-navbar{
+        min-height: 83px !important;
+    }
+    .mean-menu{
+       position: relative;
+       right: -15px;
+    }
+    .custom-navlink{
+        margin: 0px 15px  !important;
+        font-weight: 400 !important;
+        padding-bottom: 0px !important;
+        letter-spacing: .3px;
+        font-size: 16px;
+    }
 }

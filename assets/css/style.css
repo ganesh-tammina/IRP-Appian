@@ -337,11 +337,6 @@ Navbar Area
   padding-right: 0;
   background-color: transparent;
 }
-.navbar-light img {
-  max-width: 140px;
-  float: left;
-  padding: 10px 0;
-}
 .navbar-light .navbar-brand-sticky {
   display: none;
 }
@@ -367,7 +362,7 @@ Navbar Area
 .main-nav nav .navbar-nav .nav-item a {
   text-transform: capitalize;
   color: #1a1b1e;
-  font-weight: 600;
+  font-weight: 300;
   margin-left: 12px;
   margin-right: 12px;
 }
@@ -666,9 +661,8 @@ Navbar Area
   background-color: #2966be;
   position: fixed;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  height: 70px;
+  height: auto;
   display: grid;
-  place-items: center;
 }
 .sticky-nav .nav-bar-two .switch-box {
   top: 20px;
@@ -6972,7 +6966,7 @@ area {
 .third-session {
   background-image: url(../IRP-assets/blue-gradient-shape.svg);
   width: 100%;
-  height: 135vh;
+  height: 155vh;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 3rem 0rem;
@@ -7732,4 +7726,22 @@ div .dot {
   text-transform: capitalize;
   color: #FFFFFF;
   z-index: 99999;
+}
+
+.container-fluid_width {
+  padding: 0px 60px;
+}
+.container-fluid_width .custom-navbar {
+  min-height: 83px !important;
+}
+.container-fluid_width .mean-menu {
+  position: relative;
+  right: -15px;
+}
+.container-fluid_width .custom-navlink {
+  margin: 0px 15px !important;
+  font-weight: 400 !important;
+  padding-bottom: 0px !important;
+  letter-spacing: 0.3px;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
